@@ -54,6 +54,8 @@ header img:hover{
     border-left: 6px solid black;
     border-right: 6px solid black;
     border-bottom: 6px solid black;
+   
+    
 }
 
 #menu-h ul{
@@ -62,16 +64,18 @@ header img:hover{
     max-width: 800px;
     font-size: 21px;
     
+    
 }
 
 #menu-h ul li{
-    display: inline;   
+    display: inline;
+    
 }
 
 #menu-h ul li a{
     display: inline-block;
     color: #fff;
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 
@@ -108,11 +112,9 @@ header img:hover{
     
 }
 
-
-
 .topo{
     border-bottom: 3px solid black;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .topo img{
@@ -123,39 +125,6 @@ header img:hover{
     box-shadow: 0px 0px 0px 4px #000000;
     
 }
-
-
-
-.meio {
-    padding-top: 20px;
-    border-top: 3px solid black;
-    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(184, 196, 198) 60%);
-    
-}
-
-.meio h3{
-    text-align: center;
-    font-size: 22px;
-    color: #fff;
-    background-color: #000000;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
-    border-radius: 13px;
-    width: 1100px;
-}
-
-.meio p{
-    text-align: justify;
-    text-indent: 50px;
-    width: 850px;
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    line-height: 1.5;
-}
-
-
-
-
 
 /* Rodapé */
 
@@ -168,13 +137,13 @@ footer{
     border-left: 6px solid black;
     border-right: 6px solid black;
     border-bottom: 6px solid black;
-    padding-top: 10px;  
+    padding-top: 10px;
+    color: red;
 }
 /* Fim Index.html */
 
 
-
-/* Cursos.html */
+/* Modalidades.html */
 
 .container2{
     display: grid;
@@ -186,7 +155,7 @@ footer{
     padding-bottom: 20px;
 }
 
-.cursostexto h2{
+.modalidadestext h2{
     text-align: center;
     font-size: 32px;
     color: #fff;
@@ -197,13 +166,13 @@ footer{
     
 }
 
-.cursostexto ul li{
+.modalidadestext ul li{
     text-align: justify;
     line-height: 3.0;
     font-size: 18px;
 }
 
-.cursoimagem img{
+.modalidadesimagem img{
     height: 400px;
     box-shadow: 0px 0px 0px 3px #000000;
 }
@@ -243,6 +212,7 @@ footer{
        
 }
 
+
 #email:hover{
     background-color: #ffffff;
 }
@@ -250,6 +220,7 @@ footer{
 .contato figure{
     display: flex;
     justify-content: center;
+    gap: 20px;
     
 }
 
@@ -272,7 +243,7 @@ footer{
 
 
 #mensagem{
-    height: 140px;
+    height: 100px;
 }
 
 #submit{
